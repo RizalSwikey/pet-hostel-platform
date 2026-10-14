@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background-color: #FDFBF7;
+  color: #14211A;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+/* Custom crisp hairline border style */
+.hairline {
+  border-width: 1px;
+  border-color: #E4DED4;
+}
+
+/* Crisp hard offset stamps */
+.stamp {
+  box-shadow: 2px 2px 0px #1B382B;
+}
+
+.stamp-hover:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px #1B382B;
+}
+
+.stamp-active:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #1B382B;
+}

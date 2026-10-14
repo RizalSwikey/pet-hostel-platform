@@ -1,0 +1,28 @@
+{
+  "name": "pet-hostel-platform",
+  "version": "1.0.0",
+  "description": "Heritage Sanatorium & Modern Botanical Retreat Pet Hostel MERN Platform",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node -e \"require('./api/index').listen(5000, () => console.log('API running on http://localhost:5000'))\"",
+    "build": "cd client && npm install && npm run build"
+  },
+  "keywords": [
+    "pet-hostel",
+    "mern",
+    "express",
+    "mongoose",
+    "react",
+    "vite",
+    "tailwind"
+  ],
+  "author": "Rizal Akbar Syah Fauzan Putra <rizalswikey@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
